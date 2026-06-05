@@ -72,8 +72,8 @@ agroorbit-web/
 | `--text-muted`   | `#8892a4`  |
 
 ## Deploy
-[link do deploy aqui]
 
+https://gs-webdev-drab.vercel.app/
 
 ## Integrantes
 
