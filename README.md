@@ -77,8 +77,8 @@ https://gs-webdev-drab.vercel.app/
 
 ## Integrantes
 
-Fábio Alexandre Barbosa Filho 567419
-Wenderson da Silva Santos - RM: 567847
-Igor Davi Avelar Rosa Cesário- RM: 568163
-Gilberto Hideaki Matsunaga RM 568191 
-Douglas Taveira Vilella Roberto RM 567846
+- Fábio Alexandre Barbosa Filho 567419
+- Wenderson da Silva Santos - RM: 567847
+- Igor Davi Avelar Rosa Cesário- RM: 568163
+- Gilberto Hideaki Matsunaga RM 568191
+- Douglas Taveira Vilella Roberto RM 567846
