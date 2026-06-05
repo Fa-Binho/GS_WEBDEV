@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Problema from './pages/Problema.jsx';
@@ -9,7 +9,7 @@ import Aplicacao from './pages/Aplicacao.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename="/GS_WEBDEV">
+    <>
       <Header />
       <main className="main">
         <Routes>
@@ -21,7 +21,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
