@@ -1,0 +1,172 @@
+{
+  "stats": [
+    { "id": 1, "value": "3.8M", "label": "Agricultores afetados", "icon": "👨‍🌾" },
+    { "id": 2, "value": "30%", "label": "Perda média de produtividade", "icon": "📉" },
+    { "id": 3, "value": "R$45bi", "label": "Prejuízos anuais estimados", "icon": "💸" },
+    { "id": 4, "value": "4+", "label": "APIs satelitais abertas disponíveis", "icon": "🛰️" }
+  ],
+  "problemas": [
+    {
+      "id": 1,
+      "titulo": "Irrigação sem dados",
+      "descricao": "Desperdício de água por decisões sem base em dados de umidade do solo.",
+      "icon": "💧"
+    },
+    {
+      "id": 2,
+      "titulo": "Sem previsão climática",
+      "descricao": "Perda de colheita por ausência de alertas climáticos precisos.",
+      "icon": "⛈️"
+    },
+    {
+      "id": 3,
+      "titulo": "Exclusão digital",
+      "descricao": "Regiões remotas sem internet não acessam plataformas de dados existentes.",
+      "icon": "📵"
+    }
+  ],
+  "tecnologias": [
+    {
+      "id": 1,
+      "nome": "NASA MODIS",
+      "descricao": "Imagens de vegetação e temperatura da superfície terrestre em tempo quase real.",
+      "dado": "Índice NDVI"
+    },
+    {
+      "id": 2,
+      "nome": "INPE BDMEP",
+      "descricao": "Banco de dados meteorológicos do Brasil com histórico e previsões regionais.",
+      "dado": "Precipitação e temperatura"
+    },
+    {
+      "id": 3,
+      "nome": "Copernicus Sentinel",
+      "descricao": "Dados de radar e ópticos da ESA para monitoramento de uso do solo.",
+      "dado": "Umidade do solo"
+    },
+    {
+      "id": 4,
+      "nome": "ESA Earth Online",
+      "descricao": "Catálogo de missões e dados abertos da Agência Espacial Europeia.",
+      "dado": "Múltiplas bandas espectrais"
+    }
+  ],
+  "fluxo": [
+    { "id": 1, "label": "Satélite", "icon": "🛰️", "desc": "Captura de imagens orbitais" },
+    { "id": 2, "label": "API Aberta", "icon": "🔗", "desc": "NASA, INPE, ESA, Copernicus" },
+    { "id": 3, "label": "Processamento", "icon": "⚙️", "desc": "Cálculo de NDVI e umidade" },
+    { "id": 4, "label": "Dashboard", "icon": "📊", "desc": "Visualização simplificada" },
+    { "id": 5, "label": "Agricultor", "icon": "👨‍🌾", "desc": "Decisão em campo" }
+  ],
+  "objetivos": [
+    {
+      "id": 1,
+      "ods": "ODS 2",
+      "titulo": "Fome Zero e Agricultura Sustentável",
+      "descricao": "Democratizar acesso a dados de precisão para pequenos agricultores, reduzindo desperdício e aumentando produtividade.",
+      "cor": "#00c896"
+    },
+    {
+      "id": 2,
+      "ods": "ODS 10",
+      "titulo": "Redução das Desigualdades",
+      "descricao": "Levar tecnologia espacial a regiões remotas sem infraestrutura de internet, reduzindo a exclusão digital no campo.",
+      "cor": "#e8315b"
+    }
+  ],
+  "fases": [
+    { "id": 1, "numero": "01", "titulo": "Protótipo", "descricao": "Validação técnica das APIs satelitais e do dashboard." },
+    { "id": 2, "numero": "02", "titulo": "MVP", "descricao": "Versão mínima testada com agricultores de uma região piloto." },
+    { "id": 3, "numero": "03", "titulo": "Piloto Regional", "descricao": "Expansão para cooperativas em 3 estados brasileiros." },
+    { "id": 4, "numero": "04", "titulo": "Escala Nacional", "descricao": "Cobertura nacional com integração de sensores ESP32." }
+  ],
+  "beneficiarios": [
+    {
+      "id": 1,
+      "grupo": "Agricultor Familiar",
+      "beneficio": "Decisões baseadas em dados reais de solo e clima, menos desperdício de insumos.",
+      "icon": "👨‍🌾"
+    },
+    {
+      "id": 2,
+      "grupo": "Cooperativas Agrícolas",
+      "beneficio": "Visão consolidada de múltiplas propriedades em um único dashboard.",
+      "icon": "🤝"
+    },
+    {
+      "id": 3,
+      "grupo": "Governo",
+      "beneficio": "Monitoramento de desmatamento, uso do solo e políticas públicas orientadas por dados.",
+      "icon": "🏛️"
+    },
+    {
+      "id": 4,
+      "grupo": "Meio Ambiente",
+      "beneficio": "Uso racional de água e insumos, redução do impacto ambiental da agricultura.",
+      "icon": "🌿"
+    }
+  ],
+  "comparativo": {
+    "antes": [
+      "Decisões baseadas em intuição e tradição familiar",
+      "Irrigação fixa, sem considerar a umidade real do solo",
+      "Sem alertas antecipados de seca ou chuva intensa",
+      "Risco maior de perda de safra e desperdício de água"
+    ],
+    "depois": [
+      "Decisões orientadas por NDVI e umidade do solo via satélite",
+      "Irrigação ajustada ao que a planta e o solo realmente precisam",
+      "Alertas climáticos antecipados em linguagem simples",
+      "Mais produtividade, economia de água e segurança alimentar"
+    ]
+  },
+  "passos": [
+    {
+      "id": 1,
+      "titulo": "Acessa o sistema",
+      "descricao": "O agricultor acessa a AgroOrbit pelo celular ou tablet, mesmo com internet limitada."
+    },
+    {
+      "id": 2,
+      "titulo": "Informa sua região",
+      "descricao": "Seleciona seu município ou coordenadas GPS da propriedade."
+    },
+    {
+      "id": 3,
+      "titulo": "Vê os dados do satélite",
+      "descricao": "O sistema exibe o índice de vegetação (NDVI) e umidade do solo da sua área."
+    },
+    {
+      "id": 4,
+      "titulo": "Recebe alertas",
+      "descricao": "Notificações de seca prevista, chuva intensa ou anomalia de vegetação."
+    },
+    {
+      "id": 5,
+      "titulo": "Toma a decisão",
+      "descricao": "Ajusta irrigação, antecipa colheita ou aciona suporte técnico com base nos dados."
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "pergunta": "Preciso de internet rápida para usar a AgroOrbit?",
+      "resposta": "Não. A plataforma é otimizada para conexões lentas e pode operar com dados via MQTT em regiões com sinal limitado."
+    },
+    {
+      "id": 2,
+      "pergunta": "Os dados são gratuitos?",
+      "resposta": "Sim. A AgroOrbit usa exclusivamente APIs abertas da NASA, INPE, ESA e Copernicus — todas gratuitas e públicas."
+    },
+    {
+      "id": 3,
+      "pergunta": "Funciona para qualquer cultura?",
+      "resposta": "Sim. O índice NDVI e os dados de umidade e clima são úteis para soja, milho, cana, café e praticamente qualquer cultivo."
+    },
+    {
+      "id": 4,
+      "pergunta": "Como o ESP32 se integra ao sistema?",
+      "resposta": "Um sensor local instalado na propriedade coleta dados em campo e os envia via MQTT para complementar os dados satelitais com medições locais."
+    }
+  ]
+}
